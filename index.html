@@ -1,0 +1,795 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal portfolio website showcasing web development skills, projects, education and contact information.">
+
+    <title>My Portfolio | Web Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span>Portfolio<span>/&gt;</span>
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-buttons">
+            <button id="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="hero-small">Hello, I'm</p>
+
+            <h1>Your <span>Name</span></h1>
+
+            <h2>
+                I'm a <span id="typing-text"></span>
+            </h2>
+
+            <p class="hero-description">
+                I create modern, responsive and user-friendly websites
+                using HTML, CSS and JavaScript. I enjoy turning ideas
+                into beautiful digital experiences.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+            <div class="social-links">
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="image-circle">
+
+                <div class="code-card">
+                    <span>&lt;developer&gt;</span>
+                    <span>Creative</span>
+                    <span>Developer</span>
+                    <span>&lt;/developer&gt;</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="scroll-down">
+            <a href="#about">
+                <span>Scroll Down</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section about" id="about">
+
+        <div class="section-heading">
+            <p>Get To Know Me</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-image">
+
+                <div class="about-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Creative Developer</h3>
+                    <p>Building modern digital experiences.</p>
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <h3>Passionate Web Developer</h3>
+
+                <p>
+                    I'm a passionate web developer who enjoys designing and
+                    developing modern websites. My goal is to create websites
+                    that are visually appealing, easy to use and responsive
+                    across all devices.
+                </p>
+
+                <p>
+                    I work primarily with HTML, CSS and JavaScript and
+                    continuously improve my skills by building real-world
+                    projects and exploring new technologies.
+                </p>
+
+                <div class="about-info">
+
+                    <div>
+                        <strong>Name:</strong>
+                        <span>Your Name</span>
+                    </div>
+
+                    <div>
+                        <strong>Email:</strong>
+                        <span>your@email.com</span>
+                    </div>
+
+                    <div>
+                        <strong>Location:</strong>
+                        <span>Karachi, Pakistan</span>
+                    </div>
+
+                    <div>
+                        <strong>Freelance:</strong>
+                        <span>Available</span>
+                    </div>
+
+                </div>
+
+                <a href="#contact" class="btn primary-btn">
+                    Let's Talk
+                    <i class="fa-solid fa-paper-plane"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="section skills-section" id="skills">
+
+        <div class="section-heading">
+            <p>What I Know</p>
+            <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skills-text">
+
+                <h3>Technologies I Work With</h3>
+
+                <p>
+                    I have experience creating responsive websites and
+                    interactive web applications using modern front-end
+                    technologies.
+                </p>
+
+                <div class="skill-icons">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="skill-bars">
+
+                <div class="skill">
+                    <div class="skill-title">
+                        <span>HTML5</span>
+                        <span>95%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-width="95%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+                    <div class="skill-title">
+                        <span>CSS3</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-width="90%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+                    <div class="skill-title">
+                        <span>JavaScript</span>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-width="85%"></div>
+                    </div>
+                </div>
+
+
+                <div class="skill">
+                    <div class="skill-title">
+                        <span>Responsive Design</span>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div class="progress-bar" data-width="90%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SERVICES ================= -->
+
+    <section class="section services" id="services">
+
+        <div class="section-heading">
+            <p>What I Offer</p>
+            <h2>My <span>Services</span></h2>
+        </div>
+
+        <div class="services-container">
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Building fast, responsive and functional websites
+                    using modern web technologies.
+                </p>
+
+                <a href="#contact">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-paintbrush"></i>
+                </div>
+
+                <h3>Web Design</h3>
+
+                <p>
+                    Creating clean and attractive user interfaces
+                    focused on usability and visual appeal.
+                </p>
+
+                <a href="#contact">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <div class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </div>
+
+                <h3>Responsive Design</h3>
+
+                <p>
+                    Making websites look and work perfectly on
+                    desktops, tablets and smartphones.
+                </p>
+
+                <a href="#contact">
+                    Learn More
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="section projects" id="projects">
+
+        <div class="section-heading">
+            <p>My Recent Work</p>
+            <h2>Featured <span>Projects</span></h2>
+        </div>
+
+        <div class="projects-container">
+
+
+            <div class="project-card">
+
+                <div class="project-image project-one">
+                    <div class="project-overlay">
+                        <a href="#" aria-label="View project">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <span>HTML • CSS • JavaScript</span>
+
+                    <h3>Modern Landing Page</h3>
+
+                    <p>
+                        A clean and responsive landing page designed
+                        for a modern business website.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-image project-two">
+                    <div class="project-overlay">
+                        <a href="#" aria-label="View project">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <span>HTML • CSS • JavaScript</span>
+
+                    <h3>To-Do List App</h3>
+
+                    <p>
+                        An interactive task management application
+                        with JavaScript functionality.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-image project-three">
+                    <div class="project-overlay">
+                        <a href="#" aria-label="View project">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-content">
+
+                    <span>HTML • CSS • JavaScript</span>
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        A professional personal portfolio website
+                        showcasing skills and projects.
+                    </p>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section class="section education" id="education">
+
+        <div class="section-heading">
+            <p>My Background</p>
+            <h2>Education & <span>Experience</span></h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>2024 - Present</span>
+
+                    <h3>Bachelor's Degree</h3>
+
+                    <h4>Your University</h4>
+
+                    <p>
+                        Currently pursuing my bachelor's degree while
+                        developing my technical and professional skills.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>2025 - Present</span>
+
+                    <h3>Web Development</h3>
+
+                    <h4>Self Learning & Projects</h4>
+
+                    <p>
+                        Learning front-end development and creating
+                        practical projects using HTML, CSS and JavaScript.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    <i class="fa-solid fa-certificate"></i>
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>2026</span>
+
+                    <h3>Web Development Certification</h3>
+
+                    <h4>Online Learning</h4>
+
+                    <p>
+                        Completed web development courses and strengthened
+                        my understanding of modern front-end technologies.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="section contact" id="contact">
+
+        <div class="section-heading">
+            <p>Get In Touch</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
+
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+
+                <h3>Let's Work Together</h3>
+
+                <p>
+                    Have a project in mind or want to discuss an idea?
+                    Feel free to contact me. I'll be happy to hear from you.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <span>Email</span>
+                        <a href="mailto:your@email.com">
+                            your@email.com
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+
+                    <div>
+                        <span>Phone</span>
+                        <a href="tel:+00000000000">
+                            +00 000 0000000
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div>
+                        <span>Location</span>
+                        <p>Karachi, Pakistan</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <form class="contact-form" id="contact-form">
+
+                <div class="input-row">
+
+                    <div class="input-group">
+
+                        <label for="name">Your Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label for="email">Your Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Enter subject"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit" class="btn primary-btn submit-btn">
+
+                    Send Message
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+                <p class="form-message" id="form-message"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <a href="#home" class="logo">
+                <span>&lt;</span>Portfolio<span>/&gt;</span>
+            </a>
+
+            <p>
+                Designed & Developed with ❤️ using HTML, CSS & JavaScript.
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © <span id="year"></span> Your Name. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Back To Top -->
+
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
